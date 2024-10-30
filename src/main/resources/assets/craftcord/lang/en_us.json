@@ -1,0 +1,16 @@
+{
+  "key.craftcord.friendlist": "Open Friend List",
+  "key.craftcord.chat": "Open Chat",
+  "category.craftcord.general": "CraftCord",
+  
+  "craftcord.friends.add": "Add Friend",
+  "craftcord.friends.remove": "Remove Friend",
+  "craftcord.friends.list": "Friends List",
+  
+  "craftcord.chat.global": "Global",
+  "craftcord.chat.friends": "Friends",
+  "craftcord.chat.party": "Party",
+  "key.craftcord.party": "Open Party Menu",
+  "key.craftcord.quickmessage": "Quick Message",
+  "key.craftcord.settings": "Open Settings"
+} 

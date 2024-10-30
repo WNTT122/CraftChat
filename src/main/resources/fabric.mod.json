@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "craftcord",
+  "version": "${version}",
+  "name": "CraftCord",
+  "description": "A social enhancement mod for Minecraft",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {
+    "homepage": "https://your-website.com/",
+    "sources": "https://github.com/yourusername/craftcord"
+  },
+  "license": "MIT",
+  "icon": "assets/craftcord/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yourusername.craftcord.CraftCord"
+    ],
+    "client": [
+      "com.yourusername.craftcord.client.CraftCordClient"
+    ],
+    "modmenu": [
+      "com.yourusername.craftcord.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "craftcord.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=17",
+    "fabric-api": "*",
+    "cloth-config": ">=13.0.0"
+  },
+  "suggests": {
+    "modmenu": ">=${modmenu_version}"
+  }
+} 
